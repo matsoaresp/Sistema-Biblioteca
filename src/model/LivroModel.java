@@ -4,13 +4,11 @@ public class LivroModel {
 
     private String titulo;
     private String autor;
-    private String editora;
     private boolean emprestado = false;
 
-    public LivroModel(String titulo, String autor, String editora) {
+    public LivroModel(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
-        this.editora = editora;
         this.emprestado = false;
     }
 
@@ -22,9 +20,6 @@ public class LivroModel {
         return autor;
     }
 
-    public String getEditora() {
-        return editora;
-    }
 
     public boolean isEmprestado() {
         return emprestado;
