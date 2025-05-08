@@ -49,7 +49,7 @@ public class BibliotecaApplication {
 
     private int lerOpcao() {
         int opcao = scanner.nextInt();
-        scanner.nextLine(); // Consumir enter
+        scanner.nextLine();
         return opcao;
     }
 
